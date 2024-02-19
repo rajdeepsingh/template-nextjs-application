@@ -16,7 +16,7 @@
     "start:staging": "env-cmd -f env/.env.staging pnpm run start",
     "start:production": "env-cmd -f env/.env.production pnpm run start",
     "lint": "next lint",
-    "prepare": "husky init",
+    "prepare": "husky",
     "format": "prettier --write .",
     "test": "jest",
     "test:watch": "jest --watch"
