@@ -1,0 +1,1 @@
+export const CONTACT_FORM_TIMEOUT = 5000;

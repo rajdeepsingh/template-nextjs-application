@@ -20,7 +20,6 @@ module.exports = {
   plugins: ['import', 'jsx-a11y', 'prettier', '@typescript-eslint'],
   rules: {
     'prettier/prettier': 'error',
-    'import/no-relative-parent-imports': 'error',
     'no-restricted-imports': [
       'error',
       {
