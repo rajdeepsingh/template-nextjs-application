@@ -1,4 +1,4 @@
-import { ContactForm } from '@/features/ContactForm';
+import { ContactForm } from '@features/ContactForm';
 
 const ContactPage = () => {
   return (

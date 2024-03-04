@@ -19,7 +19,16 @@
     ],
     "baseUrl": "src/",
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["*"],
+      "@app/*": ["app/*"],
+      "@common/*": ["common/*"],
+      "@constants/*": ["constants/*"],
+      "@dataSources/*": ["dataSources/*"],
+      "@features/*": ["features/*"],
+      "@hooks/*": ["hooks/*"],
+      "@lib/*": ["lib/*"],
+      "@services/*": ["services/*"],
+      "@utils/*": ["utils/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
